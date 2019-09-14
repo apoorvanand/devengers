@@ -27,7 +27,7 @@ import os
 # and closing price on the next day (on 5th)
 # for validation.
 # [Open,High,Low,Close(t),Volume], Close (t+1)
-to_predict=[[296.94,298.19,288.00,288.95,8350500], 280.74]
+to_predict=[[330.910004,330.910004,330.910004,330.910004,330.910004],330.910004]
 # this is the same as input_shape to our LSTM models
 # (num of past days of data to use, num of metrics to use)
 data_shape=(1,5)
